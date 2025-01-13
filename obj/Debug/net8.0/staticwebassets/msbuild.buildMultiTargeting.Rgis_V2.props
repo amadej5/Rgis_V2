@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Rgis_V2.props" />
+</Project>
