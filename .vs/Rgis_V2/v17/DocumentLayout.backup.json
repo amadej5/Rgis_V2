@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|c:\\users\\amade\\source\\repos\\rgis_v2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|c:\\users\\amade\\source\\repos\\rgis_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|c:\\users\\amade\\source\\repos\\rgis_v2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|c:\\users\\amade\\source\\repos\\rgis_v2\\models\\evidencaletal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|solutionrelative:models\\evidencaletal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|c:\\users\\amade\\source\\repos\\rgis_v2\\models\\dodajanjeletalaokno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|solutionrelative:models\\dodajanjeletalaokno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|c:\\users\\amade\\source\\repos\\rgis_v2\\models\\letalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|solutionrelative:models\\letalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|c:\\users\\amade\\source\\repos\\rgis_v2\\pages\\letala\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|solutionrelative:pages\\letala\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|c:\\users\\amade\\source\\repos\\rgis_v2\\pages\\letala\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|solutionrelative:pages\\letala\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|c:\\users\\amade\\source\\repos\\rgis_v2\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4290A5-871F-4129-BE07-817F3842B2F5}|Rgis_V2.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Pages\\Letala\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Letala\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Pages\\Letala\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Letala\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T22:30:14.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Pages\\Letala\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Letala\\Create.cshtml",
+              "ToolTip": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Pages\\Letala\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Letala\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T22:30:07.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EvidencaLetal.cs",
+              "DocumentMoniker": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Models\\EvidencaLetal.cs",
+              "RelativeDocumentMoniker": "Models\\EvidencaLetal.cs",
+              "ToolTip": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Models\\EvidencaLetal.cs",
+              "RelativeToolTip": "Models\\EvidencaLetal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T22:27:17.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Letalo.cs",
+              "DocumentMoniker": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Models\\Letalo.cs",
+              "RelativeDocumentMoniker": "Models\\Letalo.cs",
+              "ToolTip": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Models\\Letalo.cs",
+              "RelativeToolTip": "Models\\Letalo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T22:26:02.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DodajanjeLetalaOkno.cs",
+              "DocumentMoniker": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Models\\DodajanjeLetalaOkno.cs",
+              "RelativeDocumentMoniker": "Models\\DodajanjeLetalaOkno.cs",
+              "ToolTip": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Models\\DodajanjeLetalaOkno.cs",
+              "RelativeToolTip": "Models\\DodajanjeLetalaOkno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T22:23:12.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T22:10:27.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T22:09:23.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-13T22:08:27.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\amade\\source\\repos\\Rgis_V2\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwB4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T22:31:52.593Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
