@@ -1,0 +1,25 @@
+﻿@page
+@model Rgis_V2.Pages.VnosLeta.CreateLetModel
+@{
+}
+
+<h1>Dodajanje leta</h1>
+<form method="post">
+    <label for="ImeLeta">Ime leta:</label>
+    <input type="text" id="ImeLeta" name="ImeLeta" required />
+
+    <label for="Letalo">Letalo:</label>
+    <input type="text" id="Letalo" name="Letalo" required />
+
+    <label for="Pilot">Pilot:</label>
+    <select id="PilotId" name="PilotId">
+    <option value="">Izberite pilota</option>
+    @foreach (var pilot in Model.Piloti)
+    {
+        var isSelected = Model.PilotId == pilot.Id ? "selected" : "";
+        <option value="@pilot.Id" isSelected>@pilot.Ime @pilot.Priimek</option>
+    }
+</select>
+
+    <button type="submit">Dodaj</button>
+</form>

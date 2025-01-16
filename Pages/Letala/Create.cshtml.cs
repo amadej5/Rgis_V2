@@ -8,9 +8,10 @@ namespace Rgis_V2.Pages.Letala
         private readonly EvidencaLetal _evidencaLetal;
         private readonly DodajanjeLetalaOkno _dodajanjeLetalaOkno;
 
-        public CreateModel()
+        // Constructor injection
+        public CreateModel(EvidencaLetal evidencaLetal)
         {
-            _evidencaLetal = new EvidencaLetal();
+            _evidencaLetal = evidencaLetal;
             _dodajanjeLetalaOkno = new DodajanjeLetalaOkno(_evidencaLetal);
         }
 
@@ -25,10 +26,7 @@ namespace Rgis_V2.Pages.Letala
             if (!ModelState.IsValid) return Page();
 
             _dodajanjeLetalaOkno.VnesiLetalo(Model, Kapaciteta);
-            return RedirectToPage("./Index");
-        }
-        public void OnGet()
-        {
+            return RedirectToPage("/Index");
         }
     }
 }

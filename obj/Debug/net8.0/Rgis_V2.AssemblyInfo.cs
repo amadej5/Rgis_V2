@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rgis_V2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c265f547d310e6d42b220344ca0ab030263eba8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+684df14431da2bd392bbf1b21cea95b04ec17d45")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rgis_V2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rgis_V2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

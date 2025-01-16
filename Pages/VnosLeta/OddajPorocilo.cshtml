@@ -1,0 +1,21 @@
+﻿@page
+@model Rgis_V2.Pages.VnosLeta.OddajPorociloModel
+@{
+}
+
+<h1>Oddaja poročila o letu</h1>
+<form method="post">
+    <label for="ImeLeta">Ime leta:</label>
+    <select id="ImeLeta" name="ImeLeta" required>
+        <option value="">Izberite let</option>
+        @foreach (var let in Model.Leti)
+        {
+            <option value="@let.ImeLeta">@let.ImeLeta</option>
+        }
+    </select>
+
+    <label for="Porocilo">Poročilo:</label>
+    <textarea id="Porocilo" name="Porocilo" required></textarea>
+
+    <button type="submit">Oddaj poročilo</button>
+</form>

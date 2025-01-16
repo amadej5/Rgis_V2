@@ -1,8 +1,8 @@
 using System;
 
 public class Porocilo {
-	private string porocilo;
 
-	private EvidencaLetov evidencaLetov;
+    public int Id { get; set; } // Enolièni identifikator
+    public string? porocilo { get; set; } // Ime pilota
 
 }

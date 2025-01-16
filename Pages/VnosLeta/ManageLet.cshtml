@@ -1,0 +1,40 @@
+﻿@page
+@model Rgis_V2.Pages.VnosLeta.ManageLetModel
+@{
+}
+
+<h1>Upravljanje letov</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Ime leta</th>
+            <th>Letalo</th>
+            <th>Pilot</th>
+            <th>Odpovedan</th>
+            <th>Dejanja</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var let in Model.Leti)
+        {
+            <tr>
+                <td>@let.ImeLeta</td>
+                <td>@let.Letalo</td>
+                <td>@let.Pilot</td>
+                <td>@let.Odpovedan</td>
+                <td>
+                    <form method="post" asp-page-handler="Izbris" asp-route-ime="@let.ImeLeta">
+                        <button type="submit">Izbriši</button>
+                    </form>
+                    @if (!let.Odpovedan)
+                    {
+                        <form method="post" asp-page-handler="Odpoved" asp-route-ime="@let.ImeLeta">
+                            <button type="submit">Odpovej</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

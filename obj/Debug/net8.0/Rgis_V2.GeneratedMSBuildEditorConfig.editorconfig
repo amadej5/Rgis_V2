@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\amade\source\repos\Rgis_V2
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/amade/source/repos/Rgis_V2/Pages/DodajanjePilota/CreatePilotcshtml.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9kYWphbmplUGlsb3RhXENyZWF0ZVBpbG90Y3NodG1sLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/amade/source/repos/Rgis_V2/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +40,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/amade/source/repos/Rgis_V2/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amade/source/repos/Rgis_V2/Pages/VnosLeta/CreateLet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm5vc0xldGFcQ3JlYXRlTGV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amade/source/repos/Rgis_V2/Pages/VnosLeta/ManageLet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm5vc0xldGFcTWFuYWdlTGV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amade/source/repos/Rgis_V2/Pages/VnosLeta/OddajPorocilo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm5vc0xldGFcT2RkYWpQb3JvY2lsby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/amade/source/repos/Rgis_V2/Pages/_ViewImports.cshtml]

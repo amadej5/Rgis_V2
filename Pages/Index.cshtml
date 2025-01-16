@@ -4,11 +4,188 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        height: 100vh; /* Full viewport height */
+        overflow-y: auto; /* Enables scrolling when content overflows */
+    }
+
+    h1 {
+        margin-top: 40px;
+        color: #333;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .table-container {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        max-height: 400px; /* Set a maximum height for each table container */
+        overflow-y: auto; /* Make each table scrollable */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    thead {
+        background-color: #f4f4f4;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        color: #555;
+    }
+
+    tbody tr:hover {
+        background-color: #f9f9f9;
+    }
+
+    a {
+        text-decoration: none;
+        color: #007BFF;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<h1>Seznam letal in pilotov</h1>
+
+<div class="grid-container">
+    <!-- Tabela za letala -->
+    <div class="table-container">
+        <h2>Letala</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Model</th>
+                    <th>Kapaciteta</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var letalo in Model.Letala)
+                {
+                    <tr>
+                        <td>@letalo.Id</td>
+                        <td>@letalo.Model</td>
+                        <td>@letalo.Kapaciteta</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+         <a asp-page="/Letala/Create">Dodaj novega pilota</a>
+    </div>
+
+    <!-- Tabela za pilote -->
+    <div class="table-container">
+        <h2>Piloti</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Ime</th>
+                    <th>Priimek</th>
+                    <th>Starost</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var pilot in Model.Piloti)
+                {
+                    <tr>
+                        <td>@pilot.Id</td>
+                        <td>@pilot.Ime</td>
+                        <td>@pilot.Priimek</td>
+                        <td>@pilot.Starost</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a asp-page="/DodajanjePilota/CreatePilotcshtml">Dodaj novega pilota</a>
+    </div>
 </div>
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<!-- Tabela za lete -->
+<h1>Seznam Letov</h1>
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Ime Leta</th>
+                <th>Letalo</th>
+                <th>Pilot</th>
+                <th>Odpovedan</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var let in Model.Leti)
+            {
+                <tr>
+                    <td>@let.ImeLeta</td>
+                    <td>@let.Letalo</td>
+                    <td>@let.Pilot</td>
+                    <td>@let.Odpovedan</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(let.Porocilo))
+                        {
+                            <span>@let.Porocilo</span>
+                        }
+                        else
+                        {
+                            <span>Nima poročila</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-page="/VnosLeta/CreateLet">Dodaj let</a>
+    <a asp-page="/VnosLeta/ManageLet">Upravljaj lete</a>
+
+    <!-- Tabela za prikaz poročil -->
+    <h1>Seznam Poročil</h1>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Ime Leta</th>
+                    <th>Poročilo</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var let in Model.Leti)
+                {
+                    @if (!string.IsNullOrEmpty(let.Porocilo))
+                    {
+                        <tr>
+                            <td>@let.ImeLeta</td>
+                            <td>@let.Porocilo</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
 </div>
+
+
+
+
